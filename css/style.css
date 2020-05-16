@@ -1,0 +1,197 @@
+* { box-sizing: border-box;}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    #acerca p {font-size: 8px; margin-left: 40px; margin-right: 40px; }
+    
+  }
+
+  
+
+.home-w {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/principal2.jpg) no-repeat center top;
+    background-size: contain;
+    color: rgb(22, 22, 22);
+}
+
+header {
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(73, 72, 72, 0.596);
+}
+
+header img {
+    width: 150px;
+    margin-left: 90px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+
+}
+
+header nav a.active {
+    background: #fed136;
+    border-radius: 3px;
+}
+
+#acerca {
+    text-align: center;
+    padding: 200px 0 100px;
+}
+
+#acerca h1 {
+    color: rgb(222, 228, 231);
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0px 0px 0px 0px;;
+}
+
+#acerca .divider {
+    width: 580px;
+    border-top: 5px solid #fcd00dd7;
+    margin: 0 auto;
+}
+
+#acerca p {
+    font-size: 24px;
+    margin-top: 40px;
+    color: rgb(224, 241, 238);
+    text-align: justify;
+}
+
+#experiencia {
+    background-color: rgb(247, 226, 226);
+}
+
+#experiencia .box {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: justify;
+    width: 300px;
+    height: 250px;
+    margin: 1%;
+    padding: 10px;
+    background-color: rgb(253, 245, 245);
+    border: 2px solid rgb(156, 152, 152);
+}
+
+.box img {
+    width: 20%;
+    height: 20%;
+}
+
+.box p {
+    text-align: left;
+}
+
+#estudios {
+    background-color: whitesmoke;
+}
+
+#estudios .box {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: justify;
+    width: 31%;
+    margin: 1%;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgb(156, 152, 152);
+}
+
+#contacto {
+    background-color: #303030;
+    background-image: url('../imagenes/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+#contacto h2{
+    color: ivory;
+    text-align: left;
+    margin-left: 110px;
+    margin: 100px;
+    
+    
+}
+
+#contacto p{
+    color: ivory;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#contacto a {
+    color: blanchedalmond;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.box h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+footer {
+    padding: 90px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.conta {
+    display: flex;
+    justify-content: flex-end;
+    width: 992px;
+    margin-left: auto;
+    margin-right: 110px;
+
+
+}
+
+    
